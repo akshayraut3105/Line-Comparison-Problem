@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Line_Comparison_problem
 {
