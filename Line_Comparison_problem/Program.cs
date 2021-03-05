@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Line_Comparison_problem
 {
@@ -40,10 +40,12 @@ namespace Line_Comparison_problem
             Console.WriteLine("Length of the second line is: " + length2);
 
 
-            if (length1 == length2)
-                Console.WriteLine("Lines are equal");
+            if (length1 < length2)
+                Console.WriteLine("Line1 " + length1 + " is less than Line2 " + length2);
+            else if (length1 > length2)
+                Console.WriteLine("Line1 " + length1 + " is greater than Line2" + length2);
             else
-                Console.WriteLine("Lines are not equal");
+                Console.WriteLine("Lines are equal of length " + length1);
 
             Console.ReadKey();
         }
