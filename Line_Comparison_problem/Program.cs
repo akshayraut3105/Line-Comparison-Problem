@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,7 +8,7 @@ namespace compareMethodForLine
 {
     class Program
     {
-        public static double CalculateLength()
+        public static double CalculateLength() 
         {
             Console.WriteLine("Enter the first x1 co-ordinate point: ");
             double x1 = (double)Convert.ToDecimal(Console.ReadLine());
